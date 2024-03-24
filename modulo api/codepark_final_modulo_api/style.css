@@ -1,0 +1,96 @@
+:root {
+  --cor-primaria: #58378C;
+  --cor-secundaria: #6C3C9D;
+  --cor-terciaria: #EF7D19;
+}
+
+main {
+  width: 420px
+}
+
+.cadastro-produtos {
+  display: flex;
+  background-color: var(--cor-primaria);
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.input-produto {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#descricao-produto {
+  width: 375px;
+  height: 60px;
+  text-indent: 10px;
+  resize: none;
+}
+
+#btn-cadastrar-produto {
+  background-color: var(--cor-terciaria);
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+#btn-cadastrar-produto:hover{
+  background-color: var(--cor-terciaria);
+}
+
+.helper-cadastro {
+  color: white;
+  font-weight: bold;
+}
+
+.produtos-cadastrados {
+  display: none;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  background-color: var(--cor-primaria);
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.card-produto h3,
+.card-produto p {
+  margin: 0px
+}
+
+.card-produto {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--cor-secundaria);
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.card-produto div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  width: 200px;
+  padding: 3px;
+}
+
+.card-produto div p {
+  font-size: 20px;
+  color: yellow;
+}
+
+.card-produto aside {
+  background-color: rgb(238, 238, 238);
+  color: black;
+  margin: 5px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}

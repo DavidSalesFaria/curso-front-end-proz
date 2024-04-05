@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+}
+
+h1 {
+  color: rgb(212, 0, 212);
+}
+
+.users-card{
+  color: white;
+  padding-left: 20px;
+  margin-top: 10px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  height: 100px;
+  width: 400px;
+  cursor: pointer;
+  transition-property: margin-right;
+}
+
+.users-card:hover {
+  transition-property: background-color;
+  transition-duration: 300ms;
+  background: rgba(255, 255, 0, 0.377);
+}
+
+
